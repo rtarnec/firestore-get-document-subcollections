@@ -14,15 +14,15 @@ It demonstrates the approach presented in the following article: https://medium.
 #### Deploy it to one of your Firebase project
 
 - Clone the project `$ git clone https://github.com/rtarnec/firestore-get-document-subcollections.git`
-- Install the packages locally by by doing `$ npm install` in the `functions` directory
+- Install the packages locally by doing `$ npm install` in the `functions` directory
 - From the project root directory, list your existing Firebase projects (`$ firebase projects:list`)
-- Choose, from the list, the Firebase project you want to use for deployment (If you don't have any Firebase project (or you want to use a new project), create one in the Firebase console https://console.firebase.google.com/)
+- Choose, from the list, the Firebase project you want to use for deployment (If you don't have any Firebase project -or you want to use a new project-, create one in the Firebase console https://console.firebase.google.com/, and re-do `$ firebase projects:list`)
 - IMPORTANT Adapt in the `public/index.html` file, the Firebase config object with your own project config. See https://firebase.google.com/docs/web/setup#config-object.
 - Deploy the project by doing `$ firebase deploy`
 
 #### Use a browser to open the unique HTML page of the project (i.e. index.html)
 
-After deployment to Firebase, open the root url of the project (https://<your-project-id>.firebaseapp.com) with your preferred browser.
+After deployment to Firebase, open the root url of the project (https://your-project-id.firebaseapp.com) with your preferred browser.
 
 Enter a document path in the dedicated field and click the button "Get Subcollections":
 
