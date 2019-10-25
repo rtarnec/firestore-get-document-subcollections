@@ -4,8 +4,12 @@ A small Firebase project demonstrating how to fetch all the subcollections of a 
 
 The project is composed of:
 
-- A Cloud Function that fetch the subcollections of a Document;
+- A Cloud Function that fetches the subcollections of a Document;
 - A simple HTML page that demonstrates how it works from a web client.
+
+### How to use it?
+
+Deploy it to one of your Firebase project and open the root url of the project (https://<your-project-id>.firebaseapp.com) with your preferred browser.
 
 Enter a document path in the dedicated field and click the button "Get Subcollections":
 
